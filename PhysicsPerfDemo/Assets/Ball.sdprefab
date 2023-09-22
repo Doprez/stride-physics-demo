@@ -1,0 +1,44 @@
+!PrefabAsset
+Id: 49b5e2d1-b97f-4db6-8ded-782288687864
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 014ee20d-54c2-41a8-b672-e22d4712d272
+    Parts:
+        -   Entity:
+                Id: 014ee20d-54c2-41a8-b672-e22d4712d272
+                Name: Ball
+                Components:
+                    2717d096de9f9c87898ff398a66d1bc5: !TransformComponent
+                        Id: ab6d4a78-c1f6-4bae-9e71-f2e5390ce37b
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    219beeb7292a8647ec3c73bb59631a1d: !InstanceComponent
+                        Id: 5e412f62-2623-4eee-8a86-300837afdd6a
+                        Master: null
+                    43431bd1e365ef877f9a07e2e5e2f323: !PhysicsPerfDemo.PrefabInstanceInstantiater,PhysicsPerfDemo
+                        Id: 7e60e894-d1d5-48b1-91d6-5e59fb613209
+                        InstanceComponent: ref!! 5e412f62-2623-4eee-8a86-300837afdd6a
+                    4e796e7ee923d8fe5cf37711b6ada588: !RigidbodyComponent
+                        Id: 16ba7093-6a74-421c-843f-cec51f2fb594
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            71ecc5bf0497785a9f344a23cc23a229: !SphereColliderShapeDesc
+                                Is2D: false
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}

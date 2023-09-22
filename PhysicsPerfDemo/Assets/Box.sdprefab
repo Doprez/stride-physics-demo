@@ -1,0 +1,46 @@
+!PrefabAsset
+Id: 13142504-6771-493e-a022-60de955d9123
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 2c68ad10-2b30-4199-b7af-cb4d9a157972
+    Parts:
+        -   Entity:
+                Id: 2c68ad10-2b30-4199-b7af-cb4d9a157972
+                Name: Box
+                Components:
+                    20e53ff65f7ae23a9ac63f23fd58c7bb: !TransformComponent
+                        Id: f8802d1f-5ada-4b88-8f25-e72225f8e51a
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    f4c2b5e8f0c0a1ee733f86d5a829157a: !RigidbodyComponent
+                        Id: 14ee19b1-4816-4ec1-8909-edff49c77683
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            c9f5b0e4f4293ee0d41b83a61c0b3c0a: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    156664994d6880ec30d43f89ac6a26f9: !PhysicsPerfDemo.PrefabInstanceInstantiater,PhysicsPerfDemo
+                        Id: 765daea3-7edc-4095-9b74-f35630139f05
+                        InstanceComponent: ref!! b984a6ac-bdaa-4c54-84b0-0141f3341dfe
+                    0aeea56689fe13e2b332beb020cb96b7: !InstanceComponent
+                        Id: b984a6ac-bdaa-4c54-84b0-0141f3341dfe
+                        Master: null
